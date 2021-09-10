@@ -77,7 +77,7 @@ b = false;
       this.showdata = this.show.Result;
       
       //condition
-      if(this.showdata=="No Records Found"){
+      if(this.showdata=="No Records Found"){   //"No Records Found" - (nodejs) comes form  
         this.a=false;
         this.b=true;
       }else{
